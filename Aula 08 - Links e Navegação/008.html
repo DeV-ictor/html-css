@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+
+<body>
+    <h1> Usando links externos </h1>
+    <p> <a href="https://twitter.com/home?lang=pt" target="_blank" rel="external noreferrer noopener">Página Inicial do Twitter</a></p> 
+
+    <!-- Utilizamos a tag A para criar um link âncora, e os parâmetros target, nesse caso em específico do "blank", para abrir em uma nova janela e no parâmetro rel, usamos o "noopener" para evitar hacking e cross-siting e "noreferrer" impede a transmissão da informação referrer para a nova página. "External" indica que o documento referenciado não faz parte do mesmo site que o referencia. Temos também o "nofollow" que é utilizado para o mecanismo de busca não criar uma relação com o meu site.
+    -->
+    <h1> Usando links internos </h1>
+    <p> Para acessar o <a href="https://www.youtube.com/" target="_blank" rel="external noreferrer noopener">Youtube</a>.</p>
+
+    <p> Para acessar a outra página, clique <a href="pag002.html" rel="next">aqui</a></p>
+    
+    <h1> Link para download</h1>
+    <ul>
+        <li><a href="Downloads/exemplo.zip" download="exemplo.zip" type="application/zip">Baixar arquivo zipado</a></li>
+    </ul>
+
+    <!-- Para outros tipos de arquivo, consultar a lista de media types e applications. -->
+
+</body>
+</html>

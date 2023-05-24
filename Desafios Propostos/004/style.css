@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #84E1AD, #1A5F38);
+    color: white;
+    padding: 10px 0px;
+    box-shadow: 0px 2px 5px #1a5f386e;
+}
+
+h1.pag { 
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+header > p {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font: normal bold 1em Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
+
+main {
+    background-color: white;
+    margin: 0px 15% 10px 15%;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.637);
+    padding: 20px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+h1#main {
+    font-family: 'Android';
+    font-size: 1.5em;
+    color: #1a5f38;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Android';
+    color: #1a5f38;
+    background-image: linear-gradient(to right, #84e1ac64, #ffffff);
+    width: 100%;
+    text-indent: 10px;
+}
+
+main > p {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 20px 0;
+}
+
+img.bugdroid {
+    display:block;
+    margin: auto;
+}
+
+div.video {
+    background-color: #1A5F38;
+    width: 100%;
+}
+
+ul.lista {
+    display: inline-block;
+}
+
+p.extra {
+    background-color: #84E1AD;
+    text-indent: 30px;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+p.extra_2 {
+    border-radius: 0px 0px 10px 10px;
+    background-color: #84E1AD;
+    text-indent: 30px;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+h3 {
+    background-color: #1a5f38;
+    color: #ffffff;
+    padding: 10px 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+section {
+    background-color: #84E1AD;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+footer {
+    background-color: #1A5F38;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+
+<body>
+    <h1> Trabalhando com Listas</h1>
+    <h2> Listas Ordenadas</h2>
+    <ol type="1">
+        <li> Acordar</li>
+        <li> Ligar para Pedro</li>
+        <li> Tomar café</li>
+        <li> Escovar os dentes</li>
+        <li> Ir para a faculdade</li>
+        <li> Almoçar</li>
+        <li> Trabalhar</li>
+        <li> Jantar</li>
+        <li> Dormir</li>
+    </ol>
+    <!-- Diferenças dos types: 
+    1 - Númerica padrão
+    A - Alfabética maiúscula
+    a - Alfabética minúscula
+    I - Romanos maiúsculos
+    i - Romanos minúsculos
+
+    Também pode-se usar o parâmetro Start para indicar a partir de qual ponto deseja iniciar a lista.
+    -->
+    <hr>
+    <h2> Listas Não-Ordenadas</h2>
+    <ul type="disc">
+        <li> 1</li>
+        <li> 3</li>
+        <li> 2</li>
+        <li> 4</li>
+    </ul>
+    <!-- Parâmetros do type são: disc, circle, square. 
+    -->
+    <hr>
+    <h2> Juntando listas v1</h2>
+    <ol>
+        <li> Antigas</li>
+        <ol type="a">
+            <li> Item 1 </li>
+            <li> Item 2</li>
+            <li> Item 3</li>
+        </ol>
+        <li> Novas</li>
+        <ol type="a" start="4"> <!-- Start é um parâmetro númerico. -->
+            <li> Item 1</li>
+            <li> Item 2</li>
+            <li> Item 3</li>
+        </ol>
+    </ol>
+    <!-- 
+    Tecla Alt pode ser usada para inserir cursores. 
+    Pode-se utilizar também uma UL dentro de uma OL, por exemplo.
+    Podemos criar outro subníveis de listas.
+
+    Outra dica que facilita no Visual Studio Code: por exemplo, ao invés de digitar OL depois 4 Li's pode usar o comando  ol>li*4   e depois tecla Tab que ele já faz toda a estrutura com os 4 LI's dentro. Isso serve para as outras tags também.
+    -->
+    <hr>
+    <h2> Lista de Definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+        <dt>Termo 2</dt>
+        <dd>Descrição</dd>
+    </dl>
+</body>
+</html>
