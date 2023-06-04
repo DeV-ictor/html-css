@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis amet ipsam odio mollitia sequi quaerat qui iusto eum ad saepe cupiditate, illo sapiente hic veritatis? Dolores, suscipit totam. Fugit, voluptas.</p>
+
+    <ul>
+        <li><a href="001.html" target="frame">Primeira Página</a></li>
+        <li><a href="002.html" target="frame">Segunda Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corrupti natus, illo recusandae rerum tenetur asperiores cupiditate ratione saepe eius porro, quasi exercitationem est corporis minima fuga architecto quas error rem eveniet suscipit quae? Eius laboriosam commodi corporis labore debitis ipsam quasi deleniti vero error reprehenderit laudantium nulla rem expedita soluta molestiae quisquam, cumque optio libero odio officiis? Laboriosam numquam asperiores tenetur inventore aspernatur excepturi accusamus, incidunt repellendus necessitatibus beatae vero sit illo? Error, cupiditate, obcaecati consequuntur quibusdam laboriosam odit vitae aspernatur fugit, hic et amet corrupti natus culpa consequatur! Eius, accusantium quos? Qui iusto voluptate praesentium repudiandae incidunt iste.</p>
+
+    <iframe name="frame" srcdoc="Banner">
+        <p>Infelizmente seu navegador não é compatível.</p>
+    </iframe>
+
+    <!-- 
+        Para um iframe interativo, também é possível fazer essa "página inicial" com o parâmetro " srcdoc ". Esse parâmetro permite que adicionemos, como valor do parâmetro, especificações em HTML (h1, p, img e por aí vai). 
+
+        Esse código HTML que inserirmos como valor de srcdoc será renderizado no nosso iframe interativo, funcionando justamente como uma página inicial.
+    -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda expedita nisi quaerat eaque atque tempora alias a mollitia nostrum maxime quae commodi praesentium deleniti, cumque ratione provident vel adipisci quibusdam nesciunt iusto cum nobis! Eum voluptatum eligendi excepturi tenetur et, distinctio modi! Vero amet rem quaerat doloremque sunt ad repudiandae esse dolor? Quas maxime voluptatibus odio consequatur harum blanditiis incidunt, a repellendus dignissimos. Consequatur modi, dicta voluptatibus eos vitae maiores quas repellendus error similique, veniam cupiditate aut mollitia saepe. Ad, repudiandae similique perspiciatis non inventore delectus veniam quisquam dolorem nemo modi, nam consectetur facere praesentium excepturi impedit odio molestiae.</p>
+    
+</body>
+</html>
